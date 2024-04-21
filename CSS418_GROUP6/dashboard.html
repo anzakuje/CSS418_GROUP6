@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Dashboard</title>
+</head>
+<body>
+    <section class="dashboard-section">
+
+        <div class="page-header">
+            <span><h1 >Federal University of Technology, Minna</h1></span>   
+        </div>
+        
+        <h3 class="dashboard-header">Student's Dashboard</h3>
+
+        <div class="dashboard">
+            <div class="biodata" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="700">
+                <h3> Biodata </h3>
+                <p class="display-name" style="text-transform: capitalize;">  </p>
+                <p class="matric-number"> </p>
+                <p class="display-email"> </p>
+                <p> Department: Cybersecurity Science </p>
+                <p class="level"> </p>
+                <!-- <b><p class="payment-status">  </p></b> -->
+            </div>
+        
+            <div class="menu" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="700">
+                <h3> Quick Links </h3>
+                <button class="to-payment">Payment Portal</button>
+                <!-- <button class="to-course">Course Registration</button> -->
+            </div>
+        
+            <div class="biodata time" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="700">
+               <h1 class="time"> TIME </h1>
+            </div>
+
+            <div class="biodata desc" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="700">
+                <h3> About the Department </h3>
+                <p> Cybersecurity is all about protecting our stuff in the digital world. That includes things like computers, phones, tablets, and even the giant networks that connect them all together. </p> <br>
+                <p> The Federal University of Technology, Minna (FUTMinna) Cybersecurity Team is dedicated to safeguarding our school's digital infrastructure and fostering a secure learning environment for students, faculty, and staff.  </p>
+            </div>
+        </div>
+        
+    </section>
+
+
+<script src="dashboard.js" type="module"> </script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: false,
+    mirror: false
+  });
+</script>
+</body>
+</html>
+
